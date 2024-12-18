@@ -1,0 +1,154 @@
+[
+    {
+        "carrera": "TU - Programación",
+        "cod_materia": 1,
+        "nom_materia": "Matemática para Informática I",
+        "hs_materia": 64,
+        "año": 1,
+        "equivalente": 2
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 2,
+        "nom_materia": "Introducción a lógica y problemas computacionales",
+        "hs_materia": 64,
+        "año": 1,
+        "equivalente": 1
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 3,
+        "nom_materia": "Organicación de Computadoras I",
+        "hs_materia": 64,
+        "año": 1,
+        "equivalente": 3
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 4,
+        "nom_materia": "Nuevos Entornos",
+        "hs_materia": 32,
+        "año": 1,
+        "equivalente": 4
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 5,
+        "nom_materia": "Taller de Lenguajes de Marcado y Tecnologías Web",
+        "hs_materia": 64,
+        "año": 1,
+        "equivalente": null
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 6,
+        "nom_materia": "Programación Estructurada",
+        "hs_materia": 96,
+        "año": 1,
+        "equivalente": 1
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 7,
+        "nom_materia": "Matemática para Informática II",
+        "hs_materia": 64,
+        "año": 1,
+        "equivalente": 2
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 8,
+        "nom_materia": "Inglés I",
+        "hs_materia": 32,
+        "año": 1,
+        "equivalente": 8
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 9,
+        "nom_materia": "Bases de Datos",
+        "hs_materia": 96,
+        "año": 2,
+        "equivalente": 7
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 10,
+        "nom_materia": "Programación con Objetos I",
+        "hs_materia": 128,
+        "año": 2,
+        "equivalente": 5
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 11,
+        "nom_materia": "Estructuras de Datos",
+        "hs_materia": 128,
+        "año": 2,
+        "equivalente": 6
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 12,
+        "nom_materia": "Materia UNAHUR",
+        "hs_materia": 32,
+        "año": 2,
+        "equivalente": 23
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 13,
+        "nom_materia": "Programación con Objetos II",
+        "hs_materia": 96,
+        "año": 2,
+        "equivalente": 10
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 14,
+        "nom_materia": "Electiva Grupo I",
+        "hs_materia": 64,
+        "año": 2,
+        "equivalente": [14,18]
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 15,
+        "nom_materia": "Electiva Grupo II",
+        "hs_materia": 64,
+        "año": 2,
+        "equivalente": [3,11,12]
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 16,
+        "nom_materia": "Inglés II",
+        "hs_materia": 32,
+        "año": 2,
+        "equivalente": 17
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 17,
+        "nom_materia": "Construcción de Interfaces de Usuario",
+        "hs_materia": 96,
+        "año": 3,
+        "equivalente": 13
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 18,
+        "nom_materia": "Estrategias de Persistencia",
+        "hs_materia": 96,
+        "año": 3,
+        "equivalente": 15
+    },
+    {
+        "carrera": "tecnicatura universitaria en programación",
+        "cod_materia": 19,
+        "nom_materia": "Elementos de Ingeniería de Software",
+        "hs_materia": 96,
+        "año": 3,
+        "equivalente": 16
+    }
+]

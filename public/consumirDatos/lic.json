@@ -1,0 +1,193 @@
+[
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 1,
+        "nom_materia": "Introducción a la Programación",
+        "hs_materia": 128,
+        "año": 1,
+        "equivalente": [1,6]
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 2,
+        "nom_materia": "Matemática I",
+        "hs_materia": 128,
+        "año": 1,
+        "equivalente": [2,7]
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 3,
+        "nom_materia": "Organización de Computadoras",
+        "hs_materia": 96,
+        "año": 1,
+        "equivalente": 3
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 4,
+        "nom_materia": "Nuevos Entornos",
+        "hs_materia": 32,
+        "año": 1,
+        "equivalente": 4
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 5,
+        "nom_materia": "Programación con Objetos I",
+        "hs_materia": 128,
+        "año": 1,
+        "equivalente": 10
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 6,
+        "nom_materia": "Estructuras de Datos",
+        "hs_materia": 128,
+        "año": 1,
+        "equivalente": 11
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 7,
+        "nom_materia": "Bases de Datos",
+        "hs_materia": 96,
+        "año": 1,
+        "equivalente": 9
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 8,
+        "nom_materia": "Inglés I",
+        "hs_materia": 32,
+        "año": 1,
+        "equivalente": 8
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 9,
+        "nom_materia": "Matemática II",
+        "hs_materia": 64,
+        "año": 2,
+        "equivalente": 0
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 10,
+        "nom_materia": "Programación con Objetos II",
+        "hs_materia": 96,
+        "año": 2,
+        "equivalente": 13
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 11,
+        "nom_materia": "Redes de Computadoras",
+        "hs_materia": 96,
+        "año": 2,
+        "equivalente": 15
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 12,
+        "nom_materia": "Sistemas Operativos",
+        "hs_materia": 96,
+        "año": 2,
+        "equivalente": 15
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 13,
+        "nom_materia": "Construcción de Interfaces de Usuario",
+        "hs_materia": 96,
+        "año": 2,
+        "equivalente": 17
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 14,
+        "nom_materia": "Programación Concurrente",
+        "hs_materia": 64,
+        "año": 2,
+        "equivalente": 14
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 15,
+        "nom_materia": "Estrategias de Persistencia",
+        "hs_materia": 96,
+        "año": 2,
+        "equivalente": 18
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 16,
+        "nom_materia": "Elementos de Ingeniería de Software",
+        "hs_materia": 96,
+        "año": 2,
+        "equivalente": 19
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 17,
+        "nom_materia": "Inglés II",
+        "hs_materia": 32,
+        "año": 2,
+        "equivalente": 16
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 18,
+        "nom_materia": "Programación Funcional",
+        "hs_materia": 64,
+        "año": 3,
+        "equivalente": 14
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 19,
+        "nom_materia": "Laboratorio de Sistemas OP y Redes",
+        "hs_materia": 64,
+        "año": 3
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 20,
+        "nom_materia": "Desarrollo de Aplicaciones",
+        "hs_materia": 96,
+        "año": 3,
+        "equivalente": 0
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 21,
+        "nom_materia": "Complementaria 1",
+        "hs_materia": 64,
+        "año": 3,
+        "equivalente": 0
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 22,
+        "nom_materia": "PPS",
+        "hs_materia": 96,
+        "año": 3,
+        "equivalente": 0
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 23,
+        "nom_materia": "Materia UNAHUR",
+        "hs_materia": 32,
+        "año": 3,
+        "equivalente": 12
+    },
+    {
+        "carrera": "Licenciatura en Informática",
+        "cod_materia": 24,
+        "nom_materia": "Complementaria 2",
+        "hs_materia": 64,
+        "año": 3,
+        "equivalente": 0
+    }
+]
