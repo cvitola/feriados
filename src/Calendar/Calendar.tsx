@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { diffDays } from "@formkit/tempo";
 import  ProgressBar  from  "@ramonak/react-progress-bar" ;
@@ -36,6 +36,7 @@ const Calendar: React.FC<CalendarProps> = ({ anio }) => {
   const diasEnElMes = cantidadDias();
   const primerDiaDelMes = inicializar();
   const diaActual = diaDelAnio();
+  const [porcentaje, setPorcentaje] = useState<number>(0);
 
   // Calcular celdas vacías al inicio y días del mes
   const celdasVacias = Array.from({ length: primerDiaDelMes }, () => "");
@@ -49,9 +50,19 @@ const Calendar: React.FC<CalendarProps> = ({ anio }) => {
     todasLasCeldas.filter((_, index) => index % 7 === diaIndex)
   );
 
+  const calcularPorcentaje = (v1: number,v2: number) => {
+    let por = (v1/v2*100);
+    return por >= 100 ? 100 : Number(por.toFixed(2))
+  } 
+useEffect( () => {
+    setPorcentaje(calcularPorcentaje(diaActual,diasEnElMes));
+  }, [anio])
+
+  
   return (
+
     <Parche>
-      <ProgressBar completed= {90} />
+      <ProgressBar completed= {porcentaje} />
       <Calendario>
       <Grillado>
         {grillaTranspuesta.map((fila, filaIndex) => (
