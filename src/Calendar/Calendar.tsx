@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { diffDays } from "@formkit/tempo";
+import  ProgressBar  from  "@ramonak/react-progress-bar" ;
 
 type CalendarProps = { 
     anio: string;
@@ -49,7 +50,9 @@ const Calendar: React.FC<CalendarProps> = ({ anio }) => {
   );
 
   return (
-    <Calendario>
+    <Parche>
+      <ProgressBar completed= {90} />
+      <Calendario>
       <Grillado>
         {grillaTranspuesta.map((fila, filaIndex) => (
           <Fila key={filaIndex}>
@@ -67,12 +70,20 @@ const Calendar: React.FC<CalendarProps> = ({ anio }) => {
         ))}
       </Grillado>
     </Calendario>
+    </Parche>
+    
   );
 };
 
 export default Calendar;
 
 // Estilos con Styled Components
+
+const Parche = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 5px;`;
+
 const Calendario = styled.div`
   font-family: Arial, sans-serif;
   margin: auto;

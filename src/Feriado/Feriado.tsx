@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 import { format } from '@formkit/tempo';
 import Calendar from '../Calendar/Calendar';
 import { obtenerFechaISO, diasProximoFeriado } from '../api/logicas';
-import  ProgressBar  from  "@ramonak/react-progress-bar" ;
+
 
 const Feriado = () => {
     const [datos, setDatos] = useState<Datos[]>([]);
@@ -50,7 +50,7 @@ const Feriado = () => {
         <p> {diasProximoF !== null
         ? `El próximo feriado es en ${diasProximoF} días.`
         : "No hay más feriados este año."}</p>
-        <ProgressBar completed= {90} />
+        
         <Wrapper>
             <p>Seleccione el año: </p>
             <Selector value={anio} name="anio" onChange={obtenerAnio}>
@@ -65,7 +65,7 @@ const Feriado = () => {
             <Calendar anio={anio}/>
         </Wrapper>
         
-        <p>La cantidad de feriados del año 2024 es: {datos?.length}</p>
+        <p>La cantidad de feriados del año {anio} es: {datos?.length}</p>
         <Cuadricula>
         {
             datos?.map( (f,i) => (
